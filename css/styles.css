@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+body html{
+
+}
+.container{
+    width:50%;
+    height:100%;
+    float: left;
+}
+.container2{
+    width:50%;
+    height:100%;
+    float: left;
+}
+.principal{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/dbz.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.formulario{
+    padding: 15%;
+}
+.rotate{
+    margin-top: 50%;
+    display: inline-block;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    animation: roll 3s infinite;
+    transform: rotate(30deg);
+    /* opacity: .7; */
+    }
+    @keyframes roll {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+}
