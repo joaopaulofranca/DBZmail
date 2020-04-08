@@ -20,7 +20,7 @@
 			</div><br>
 			<div class="form-group">
 				<label for="mensagem">Mensagem</label><br>
-				<textarea name="mensagem" class="form-control" id="mensagem"></textarea>
+				<textarea name="email" class="form-control" id="mensagem"></textarea>
 			</div><br>
 
 			<button type="submit" class="btn btn-primary btn-lg">Enviar</button>
