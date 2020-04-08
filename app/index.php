@@ -8,7 +8,7 @@
 <body>
 	<div class="principal">
 		<div class="container">
-		<form class="formulario" action="" method="post">
+		<form class="formulario" action="processo.php" method="post">
 			<div class="form-group">
 				<label for="para">Para</label><br>
 				<input name="para" type="text" class="form-control" id="para" placeholder="joao@dominio.com.br">
