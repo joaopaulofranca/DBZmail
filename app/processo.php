@@ -1,4 +1,12 @@
 <?php
+require "../PHPMailer/Exception.php";
+require "../PHPMailer/OAuth.php";
+require "../PHPMailer/PHPMailer.php";
+require "../PHPMailer/POP3.php";
+require "../PHPMailer/SMTP.php";
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 //print_r($_POST);
 class Mensagem{
     //atributos
